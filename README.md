@@ -1,4 +1,4 @@
-# michelangelo
+# Michelangelo
 
 ## Build Setup
 
