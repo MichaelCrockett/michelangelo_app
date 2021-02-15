@@ -6,7 +6,7 @@
 
     <Work thumbnail="https://www.thecollector.com/wp-content/uploads/2020/05/sistine_chapel_painted_frescoes_by_michelangelo_in_vatican_featured.jpg"
     title="Sistine Chapel"
-    previewText="The Sistine Chapel ceiling , painted by Michelangelo between 1508 and 1512, is a cornerstone work of High Renaissance art." />
+    previewText="The Sistine Chapel ceiling, painted by Michelangelo between 1508 and 1512, is a cornerstone work of High Renaissance art." />
 
     <Work thumbnail="https://s3-prod.modernhealthcare.com/s3fs-public/David_WEB_edit.jpg"
     title="David"
