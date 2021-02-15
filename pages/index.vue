@@ -1,20 +1,18 @@
 <template>
   <div class="container">
-    <div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Michelangelo_Daniele_da_Volterra_%28dettaglio%29.jpg/220px-Michelangelo_Daniele_da_Volterra_%28dettaglio%29.jpg" alt="Michelangelo" class="mich-pic">
       <h1 class="title">
         The works of Michelangelo
       </h1>
-      <h2>
-        My awesome first Nuxt.js application
-      </h2>
-      </div>
+      <br><br>
+      <quote>"If you knew how much work it took, you wouldn't call it genius"</quote>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  
+
 }
 </script>
 
@@ -26,6 +24,9 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+.mich-pic {
+  width: 30%;
 }
 
 .title {
