@@ -1,10 +1,22 @@
 <template>
   <div>
-    <Nuxt />
+    <Header />
+    <nuxt />
   </div>
 </template>
 
+<script>
+import Header from '@/components/Header'
+export default {
+  components: {
+    Header
+  }
+}
+</script>
+
+
 <style>
+
 html {
   font-family:
     'Source Sans Pro',
