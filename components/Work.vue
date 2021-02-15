@@ -1,18 +1,26 @@
 <template lang="html">
-  <article class="work">
-    <div class="thumbnail" :style="{backgroundImage: 'url(' + thumbnail + ')'}"></div>
-    <h1>{{ title }}</h1>
-    <p>{{ previewText }}</p>
-  </article>
+
+  <nuxt-link :to="'/works/' + id">
+    <article class="work">
+      <div class="thumbnail" :style="{backgroundImage: 'url(' + thumbnail + ')'}"></div>
+      <h1>{{ title }}</h1>
+      <p>{{ previewText }}</p>
+    </article>
+  </nuxt-link>
 </template>
 
 <script>
 export default {
-  props: ['thumbnail', 'title', 'previewText']
+  props: ['thumbnail', 'title', 'previewText', 'id']
 }
 </script>
 
 <style lang="css" scoped>
+
+a {
+  text-decoration: none;
+  color: black;
+}
 
 .work {
   box-sizing: border-box;
